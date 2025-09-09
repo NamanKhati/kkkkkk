@@ -2,11 +2,10 @@
 import mysql.connector
 
 def create_connection():
-    # Replace with your MySQL server details
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="12345",  # Replace with your MySQL password
+        password="12345",
         database="gst_invoice"
     )
     return connection
